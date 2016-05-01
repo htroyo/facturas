@@ -1,0 +1,22 @@
+factura (
+numero
+fecha
+datoscliente (
+nombre
+telefono
+direccion
+)
+detalle (
+nombre
+cantidad
+precio
+impuesto
+descuento
+)
+)
+empresa (
+nombre
+direccion
+telefono
+nombrevendedor
+)

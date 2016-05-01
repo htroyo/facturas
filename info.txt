@@ -1,0 +1,6 @@
+La aplicacion fue probada en mongodb 2.4 para windows.
+Solo requiere descomprimir en una carpeta htdocs de apache con la extension de mongo para php
+La aplicacion usa una base de datos llamada facturas con dos collecciones:
+datos: para los datos de la empresa y el valor del impuesto de venta, se provee un ejemplo (datos.json) para ser importado con mongoimport en la base de datos
+facturas: en donde la aplicacion almacena las facturas.
+Todos los calculos se hacen en la aplicacion.

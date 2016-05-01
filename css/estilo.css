@@ -1,0 +1,90 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#principal {
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+table {
+    border-collapse: collapse;
+    padding: 0px;
+}
+#contenido {
+    width: 100%;
+    height: 800px;
+    vertical-align: top;
+    padding: 20px;
+}
+#encabezado {
+    font-size: 25px;
+    vertical-align: bottom;
+    height: 80px;
+    padding: 15px;
+}
+#pie {
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    height: 15px;
+    padding: 10px;
+}
+.datos {
+    border-collapse: collapse;
+    padding: 3px;
+}
+#nav {
+    list-style: none;
+    margin: 0px;
+    padding: 2px;
+}
+#nav li {
+    display: inline;
+}
+#nav a {
+    font-size: 12px;
+}
+.ss {
+    font-family: Verdana,Arial,sans-serif;
+}
+.ui-widget-overlay {
+    background: black;
+    opacity: 0.65;
+    //border: 2px solid white;
+}
+#facturas {
+    border: 1px solid #cccccc;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+#facturas tr {
+    font-size: 10px;
+}
+#facturas td {
+    padding: 2px;
+}
+.tbl_btn {
+    text-align: center;
+}
+.dlg_tabla_1 {
+    border: none;
+    border-collapse: collapse;
+    padding: 2px;
+    margin: 0px 4px;
+    width: 95%;
+}
+.btn_eliminar, .btn_ver {
+    height: 20px;
+    width: 30px;
+}
+button {
+    font-size: 14px;
+}
+.dialogo {
+    font-size: 14px;
+    width: 700px;
+}
